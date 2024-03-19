@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/avaesa/static/css/main.14b161cc.css",
+    "main.js": "/avaesa/static/js/main.e5858975.js",
+    "static/js/453.915235a8.chunk.js": "/avaesa/static/js/453.915235a8.chunk.js",
+    "index.html": "/avaesa/index.html",
+    "main.14b161cc.css.map": "/avaesa/static/css/main.14b161cc.css.map",
+    "main.e5858975.js.map": "/avaesa/static/js/main.e5858975.js.map",
+    "453.915235a8.chunk.js.map": "/avaesa/static/js/453.915235a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14b161cc.css",
+    "static/js/main.e5858975.js"
+  ]
+}
