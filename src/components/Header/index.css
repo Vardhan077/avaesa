@@ -1,0 +1,51 @@
+.ddActive{
+    opacity:1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: var(--speed) ease;
+    background-color: #f8f8f8;
+    
+}
+
+.ddInactive{
+    opacity:0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: var(--speed) ease;
+}
+
+.cat{
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.span{
+    font-size: 15px;
+}
+ .logo{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+ }
+ .catButton{
+    border: 0px;
+    margin-top: 40px;
+    height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    font-size: 20px;
+ }
+ .catButton:hover{
+    color: red;
+    box-shadow:2px ;
+ }
+
+.li{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: square;
+}

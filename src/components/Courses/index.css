@@ -1,0 +1,15 @@
+.img{
+    height: 100px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p:hover{
+    color: red;
+}
+.item{
+    margin:25px;
+}

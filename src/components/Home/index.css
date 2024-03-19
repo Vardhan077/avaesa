@@ -1,0 +1,78 @@
+/* Styles for the carousel container */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.carousel-container {
+    max-width: 1300px;
+    max-height: 50px;
+    margin-bottom: 20px;
+    
+}
+
+/* Styles for carousel slides */
+.carousel .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+/* Styles for carousel images */
+.carousel .slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Styles for carousel captions */
+.carousel .legend {
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    border-radius: 5px;
+}
+
+/* Styles for carousel navigation buttons */
+.carousel .control-dots .dot {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.carousel .control-dots .dot.selected {
+    background-color: #fff;
+}
+
+.car{
+    /* margin-bottom: ; */
+}
+
+.courses{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.coursesContainer{
+    margin-top: 600px;
+
+}
+
+.h{
+    color: red;
+}
